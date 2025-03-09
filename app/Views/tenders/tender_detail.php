@@ -43,7 +43,7 @@
                 </form>
             <?php endif; ?>
             <?php if ($tender_project) { ?>
-                <a class="btn btn-default py-3 btnMbeGreen" href=<?= base_url('projects/view/' . $tender_project->id) ?>">
+                <a class="btn btn-default py-3 btnMbeGreen" href=<?= base_url('projects/view/' . $tender_project->id) ?>>
                 View Project
                 </a>
             <?php } ?>
