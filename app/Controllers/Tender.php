@@ -168,7 +168,8 @@ class Tender extends Security_Controller {
             'bc'        => $this->request->getPost('bc'),
             'amount'    => unformat_currency($this->request->getPost('amount')),
             'bqstatus'  => $this->request->getPost('bqstatus'),
-            'bcamount' => $this->request->getPost('bc') * $this->request->getPost('amount') / 100
+            'bcamount' => (float) $this->request->getPost('bc') * (float) unformat_currency($this->request->getPost('amount')) / 100
+
         ];
     
         $insert = $db->table('tender_bq')->insert($data);
