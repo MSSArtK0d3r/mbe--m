@@ -33,9 +33,9 @@ class Database extends Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
-		'database' => 'mbe2',
+		'username' => 'oibtours_mbe',
+		'password' => '@TestTest123456789',
+		'database' => 'oibtours_mbe',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => 'mbe_',
 		'pConnect' => false,
