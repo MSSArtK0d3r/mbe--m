@@ -1,0 +1,144 @@
+/*Write your custom css in this file.*/
+.page-title{
+    background-color: #1d2632;
+    color: white;
+}
+
+.card .card-header{
+    background-color: #1d2632;
+    color: white;
+}
+
+.tab-title{
+    background-color: #1d2632;
+    color: white;
+}
+
+.btn-default{
+    color: black;
+}
+
+.sidebar-brand{
+    background-color: white !important;
+}
+
+body{
+    font-family: Tahoma !important;
+    color: #000;
+}
+
+.project-overview-mod{
+   padding: 0px 25px 20px !important;
+}
+
+.bg-prime-mbe{
+    background-color: #1d2632;
+}
+
+.widget-expenses{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pstatus{
+    border-radius: 4px;
+    color: white;
+    background-color: #0aa00a;
+    padding: 4px 7px !important;
+    text-transform: capitalize;
+}
+
+table.dataTable.display tbody th, table.dataTable.display tbody td{
+    color: #000;
+}
+
+table.dataTable.display tbody th, table.dataTable.display tbody a{
+    color:#282fc7 !important;
+   
+}
+
+.overlay-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Overlay effect when status is 'Completed' */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 255 255 / 61%); /* Semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Make sure the card is visible under overlay */
+.card.overlay-active {
+    opacity: 0.5;
+}
+
+.tender-complete{
+    background-color: #167903;
+    padding: 2px 9px;
+    border-radius: 4px;
+}
+
+.tender-inprogress{
+    background-color: #052ce2;
+    padding: 2px 9px;
+    border-radius: 4px;
+}
+
+.btnMbe{
+    background-color: #167903 !important;
+    color:white;
+}
+.btnMbe:hover{
+    color:white;
+}
+
+.btnMbeGreen{
+    background-color: #167903;
+    color: white;
+}
+
+.widget-details h1 {
+    margin: 0;
+    color: #000;
+    font-size: 25px;
+}
+.form-control{
+    color:black;
+}
+.form-control:focus{
+    color:black;
+}
+.hidden-year {
+    display: none;
+}
+.m-1 {
+    margin: 5px;
+}
+
+.border-btn{
+    border: 1px solid #545454;
+}
+
+.btn.active{
+    background-color: #167903;
+    color: white;
+}
+
+#client-tabs li {
+    cursor: pointer;
+}

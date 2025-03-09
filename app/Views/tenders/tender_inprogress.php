@@ -1,0 +1,1 @@
+<span class="tender-inprogress">In Progress</span>
