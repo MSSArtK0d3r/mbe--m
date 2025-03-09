@@ -33,7 +33,7 @@ class Security extends BaseConfig
      *
      * Token name for Cross Site Request Forgery protection.
      */
-    public string $tokenName = 'rise_csrf_token';
+    public string $tokenName = 'mbe_csrf_token';
 
     /**
      * --------------------------------------------------------------------------
