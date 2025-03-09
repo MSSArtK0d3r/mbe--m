@@ -19,7 +19,7 @@
                             <span><?= esc($expense->expenses_detail) ?></span><br>
                             <span style="font-size:12px;"><?= esc($expense->cat) ?></span>
                         </div>
-                        <div class="w40p text-black text-end">RM <?= number_format($expense->amount, 2) ?> <a href=<?= base_url('tender/expense_delete?id='.esc($expense->texp_id)) ?> <i data-feather='x' class='icon-16'></i></a></div>
+                        <div class="w40p text-black text-end">RM <?= number_format($expense->amount, 2) ?> <a href=<?= base_url('tender/expense_delete?id='.esc($expense->texp_id)) ?>> <i data-feather='x' class='icon-16'></i></a></div>
                     </div>
                 <?php endforeach; ?>
 
