@@ -1,4 +1,5 @@
 /*Write your custom css in this file.*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 .page-title{
     background-color: #1d2632;
     color: white;
@@ -23,8 +24,9 @@
 }
 
 body{
-    font-family: Tahoma !important;
     color: #000;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .project-overview-mod{
